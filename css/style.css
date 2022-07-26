@@ -1,0 +1,159 @@
+body{
+    line-height: 1.45;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.header{
+    background-color: #02ACEE;
+    padding: 15px 0;
+}
+
+.logo{
+    text-align: center;
+}
+
+.search-box{
+    margin-top: 18px;
+    text-align: right;
+}
+
+.search-text{
+    border: 1px solid #22C0FD;
+    border-style: solid;
+    padding: 5px 12px;
+}
+
+.search-button{
+    background-color: #FF9900;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+}
+
+.search-button:hover{
+    background-color: #fff;
+    color: #02ACEE;
+}
+
+
+.menu{
+    background-color: #22C0FD;
+}
+
+.gocphai
+{
+	float:right;
+	width:1%;
+}
+.navbar-default{
+    border: none;
+    background: none;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+
+.slider{
+    margin-top: 20px;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.content a{
+    color: #02ACEE;
+}
+
+.content a:hover{
+    color: #FF9900;
+}
+.title{
+    color: #FF9900;
+    border-bottom: 1px solid #22C0FD;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    display: inline-block;
+}
+.phải
+{ 
+	border: 1px solid #22C0FD;
+    padding: 5px 10px;
+	border-radius:5px;
+	margin-top:10px;
+	margin-left:10%;
+	margin-right:20%;
+	height:auto;
+}
+.benphai1
+{
+	float: right;
+	width: 82%; 
+}
+.chữmàu
+{
+	color:#00BFFF;
+}
+.bentrai
+{
+	color:#00BFFF;
+	text-align: right;
+	float: left;
+	width: 15%; 
+}
+.benphai
+{
+	padding: 3px 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	float: right;
+	width: 82%; 
+}
+
+.footer{
+    background-color: #02ACEE;
+    color: #fff;
+    padding: 20px ;
+    margin-top: 75px;
+}
+
+article 
+{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media only screen and (max-width: 768px){
+    .search-box{
+        text-align: center;
+    }
+
+    footer
+	{
+		margin-top: 0px;
+    }
+
+    .footer-left{
+        text-align: center;
+    }
+
+    .footer-right{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .item{
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,137 @@
+.button {
+	background-color: #FF0000;/* màu bo*/
+	border: 10px double ;/* không border */
+	color: white;/* màu viền */
+	padding: 15px 32px;/* bo trong*/
+	text-align: center;
+	font-size: 16px;/* cỡ chữ */
+	margin-top: 30px;
+	margin-left: 20px;
+}  
+
+.button1 {
+	background-color: #FF0000;/* màu bo*/
+	border: 7px solid #FFFF00 ;/* không border */
+	color: #66FFFF;/* màu viền */
+	padding: 15px 32px;/* bo trong*/
+	text-align: center;
+	font-size: 16px;/* cỡ chữ */
+	margin-top: 30px;
+	margin-left: 20px;
+	border-radius: 15px;
+}
+.box {
+  background-color: #FF3333;
+  width: 300px;
+  border: 10px solid #00CCFF;
+  padding: 20px;
+  margin: 25px;
+  color:white;
+}
+.box1{
+	background-color: #FF3333;
+	width: 300px;
+	border: 10px solid #00CCFF;
+	padding: 10px;
+	margin: 20px;
+	color:white;
+	border-radius: 20px;
+}
+.boxtitle {
+	color: white;/* màu viền */
+	text-align: left;	
+}
+.hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width: 1px;
+} /*--------------*/
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #00FFFF;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #4169E1;
+}
+
+.tab button.active {
+  background-color: #87CEEB;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #FF0000;
+  border-top: none;
+} 
+.tabcontent {
+  animation: fadeEffect 1s; 
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+/*---------------------*/
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	.right {
+		margin: 30px auto;
+		width: 600px;
+		border: 2px solid #F00;
+		padding: 20px;
+		height: 170px;
+	}
+	#menu ul {
+		width: 200px;
+	}
+	
+	#menu ul li {
+		border: 1px solid #999;
+		margin-bottom: 2px;
+		position: relative;
+		list-style: none;
+	}
+	
+	#menu ul li a{
+		text-decoration: none;
+		color: #000;
+		line-height: 25px;
+		padding-left: 10px;
+		display: block;
+	}
+
+	#menu ul li a:hover{
+		background-color:#FF0000;
+	}
+	#menu ul li a.active {
+	background-color: #ddd;
+	}
+	#menu ul ul {
+		display: none;
+	}
+	
+	#menu ul li:hover > ul{
+		display: block;
+		position: absolute;
+		top: -1px;
+		left: 200px;
+	}
+
